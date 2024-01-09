@@ -476,8 +476,8 @@ background: #F00;
 /* footer start */
 
 #footer{
-    width: 1930px;
-    height: 579px;
+    width: 1900px;
+    height: 609px;
     background: #070211;
 }
 .foot_main{
@@ -522,7 +522,7 @@ width: 375px;
 .l_bot{
     padding-top: 265px;
 }
-.r_bot{
+.r_bot p{
     padding-top: 265px;
 }
 /* footer end */
