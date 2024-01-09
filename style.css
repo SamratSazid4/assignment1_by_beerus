@@ -404,3 +404,125 @@ a{
     opacity: 1;
 }
 /* portfolio end */
+
+/* n_letter part start */
+
+#n_letter{
+    margin: 120px 140px 120px 140px;
+    width: 1625px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.letter_main{
+    text-align: center;
+    padding-top: 79px;
+}
+.letter_main h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0 22px 0;
+}
+.letter_main p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 897px;
+}
+.subscribe ::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.subscribe input{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    padding-top: 47px;
+}
+.sub_btn{
+    position: absolute;
+    margin-left: 438px;
+}
+.sub_btn a{
+color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 600;
+padding: 24px 56px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+}
+.input{
+    position: relative;
+}
+
+/* n_letter part end */
+
+/* footer start */
+
+#footer{
+    width: 1900px;
+    height: 579px;
+    background: #070211;
+}
+.foot_main{
+    display: flex;
+}
+.foot_left{
+    padding-top: 120px;
+    padding-left: 140px;
+}
+.foot_left p {
+color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 22px;
+font-weight: 500;
+line-height: 40px;
+width: 375px;
+}
+.foot_mid{
+    padding: 270px;
+}
+.foot_mid img{
+    padding-right: 24px;
+}
+.foot_right{
+    padding-top: 120px;
+    padding-right: 193px;
+}
+.foot_right p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+}
+.cell{
+    display: flex;
+    justify-content: space-between;
+}
+.cell p{
+    margin-left: 10px;
+}
+.l_bot{
+    padding-top: 265px;
+}
+.r_bot{
+    padding-top: 265px;
+}
+/* footer end */
