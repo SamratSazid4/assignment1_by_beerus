@@ -476,7 +476,7 @@ background: #F00;
 /* footer start */
 
 #footer{
-    width: 1900px;
+    width: 100%;
     height: 609px;
     background: #070211;
 }
