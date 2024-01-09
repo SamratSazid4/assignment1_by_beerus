@@ -335,6 +335,50 @@ a{
     
     margin-top: 200px;
 }
+/* func ban */
+
+.func_banner {
+    margin: 0 50px;
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+    z-index: 999;
+  }
+  
+  .bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 995;
+  }
+  
+  .girl {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .girl .girl1 {
+    position: relative;
+    height: 100%;
+  }
+  
+  .girl .discount {
+    position: absolute;
+    left: -153.5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .gift {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    bottom: 0;
+    z-index: 996;
+  }
+
 /* FUNCTIONAL end */
 
 /* portfolio start */
