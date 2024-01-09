@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-/* img{
+ img{
     vertical-align: middle;
-} */
+}
 
 ul{
     list-style: none;
@@ -316,5 +316,91 @@ a{
     font-weight: 500;
     line-height: 32px;
 }
-
+.func_img{
+    background-color: aqua;
+}
+.redline_img{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.redline_img img{
+    width: 1623px;
+    height: 229px;
+}
+.top_img{
+    display: flex;
+    justify-content: space-between;
+}
+.girl_img{
+    padding-top: 230px;
+}
+.box_img img{
+    
+    margin-top: 200px;
+}
 /* FUNCTIONAL end */
+
+/* portfolio start */
+#Portfolio{
+    margin: 120px 140px 120px 140px;
+}
+.port_text h4{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    }
+.port_text h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0 22px 0;
+
+}
+.port_text p{
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 47px;
+}
+
+.port_item{
+    display: flex ;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.port_row img{
+    width: 524px;
+    height: 550px;
+}
+.port_row{
+    position: relative;
+}
+.port_over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: .7s;
+    border-radius: 15px;
+}
+.port_over i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+}
+.port_row:hover .port_over {
+    opacity: 1;
+}
+/* portfolio end */
